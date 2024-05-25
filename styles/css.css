@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.slick-next {
+    right: 17px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #076BFF;
+    border-radius: 50%;
+}
+.slick-one {
+    position: relative;
+}
+.left-arrow, .right-arrow{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    margin: 15px;
+    width: 60px;
+    height: 60px;
+}
+.left-arrow{
+    right: 0;
+}
+.card{
+    width: 416px !important
+}
+
+.mfp-title{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+#accordion p{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+#accordion span{
+    display: none;
+}
+.questions{
+    top: 8px;
+    position: relative;
+}
